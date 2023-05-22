@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tvanish"
+version = "0.1.0"
+description = "Clean Twitter account"
+authors = ["Khalid Elborai <elboraikhalid@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.24.1"
+pyppeteer = "^1.0.2"
+pyppeteer-stealth = "^2.7.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
